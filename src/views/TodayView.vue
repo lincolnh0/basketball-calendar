@@ -68,6 +68,7 @@ export default {
 
 .player-image {
   max-width: 100%;
+  max-height: 650px;
 }
 
 
