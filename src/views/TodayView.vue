@@ -7,6 +7,7 @@
       <img class="player-image" v-for="( imageUrl, index ) in this.imageUrls" v-bind:key="index" :src="imageUrl" :alt="playerName"/>
     </div>
     <p class="date-second">of {{ month }}, {{ year }}</p>
+    <p><a href="https://www.lncln.io/projects/basketball-calendar" target="_blank">What is this?</a></p>
   </div>
 </template>
 
